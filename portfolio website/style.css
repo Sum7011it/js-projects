@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(7, 7, 68);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(39, 39, 82);
+}
+nav .left img{
+    width: 60px;
+    height: 50px;
+    border: 2px solid rgb(170, 129, 208);
+    border-radius: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(126, 126, 225);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+    margin: 15px 275px 0px 0px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 2.1rem;
+    /* margin: 30px 0; */
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: rgb(65, 20, 65);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightsection img {
+    width: 80%
+}
+
+.purple {
+    color: rgb(170, 129, 208);
+}
+
+#element {
+    color: rgb(170, 129, 208);
+}
+
+.aboutheading {
+    margin: 0px 128px;
+    font-size: 2rem;
+}
+
+.purple-line-cont {
+    display: inline-block;
+    height: 20px;
+}
+
+.purple-line {
+    display: inline-block;
+    width: 64vw;
+    height: 1px;
+    margin: 9px 2px;
+    background-color: rgb(202, 109, 202);
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.secondsection>div {
+    width: 30%;
+}
+
+.leftsecondsection {
+    text-align: justify;
+}
+
+.list {
+    width: 96%;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rightsecondsection img {
+    width: 65%;
+}
+
+.projectsheading {
+    margin: 125px 112px 29px 122px;
+    font-size: 2rem;
+}
+
+.thirdsection {
+    margin: 20px 124px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50%;
+
+
+}
+
+.pr {
+    border: 2px solid rgb(93, 32, 119);
+    width: 32%;
+    height: 30%;
+    margin: 40px 0px;
+}
+
+.prfileimg {
+    width: 30px;
+    margin: 8px 10px;
+}
+
+.prgitimg {
+    width: 30px;
+    margin: 8px 10px;
+    float: right;
+}
+
+.prtitle {
+    font-size: 1.2rem;
+    margin: 0px 0px 0px 10px;
+}
+
+.prdesc {
+    margin: 10px 10px;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.prlist ul li {
+    list-style-type: none;
+}
+
+.contactheading {
+    margin: 125px 112px 29px 122px;
+    font-size: 2rem;
+}
+
+form {
+    margin: 20px 124px;
+
+}
+form ::placeholder{
+    color: rgb(202, 109, 202);
+}
+
+.form-control {
+    width: 80%;
+    border-radius: 0px;
+    background-color: transparent;
+    margin: 20px 20px;
+    padding: 7px 11px;
+    color: rgb(200, 186, 186);
+    border: 2px solid rgb(202, 109, 202);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#message {
+    width: 80%;
+    border-radius: 7px;
+    background-color: transparent;
+    margin: 20px 20px;
+    padding: 7px 11px;
+    color: rgb(200, 186, 186);
+    border: 2px solid rgb(202, 109, 202);
+}
+
+.submit {
+    margin: 0px 140px;
+}
+
+.sub {
+    padding: 10px 14px;
+    background: rgb(65, 20, 65);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+main hr {
+    border: 0px;
+    background: rgb(202, 109, 202);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+footer {
+    margin: 20px 20px;
+    text-align: center;
+}

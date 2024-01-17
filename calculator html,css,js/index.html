@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Calculator in HTML5</h1>
+        <div class="box">
+            <div class="screen">
+                <input type="text" id="display" disabled />
+            </div>
+            <div class="btns">
+                <button class="btn" id="btn7" onclick="aod('7')">7</button>
+                <button class="btn" id="btn8" onclick="aod('8')">8</button>
+                <button class="btn" id="btn9" onclick="aod('9')">9</button>
+                <button class="btn" id="btn/" onclick="aod('/')"><i class="fa-solid fa-divide"></i></button>
+                <button class="btn" id="btn4" onclick="aod('4')">4</button>
+                <button class="btn" id="btn5" onclick="aod('5')">5</button>
+                <button class="btn" id="btn6" onclick="aod('6')">6</button>
+                <button class="btn" id="btn*" onclick="aod('*')"><i class="fa-solid fa-xmark"></i></button>
+                <button class="btn" id="btn3" onclick="aod('3')">3</button>
+                <button class="btn" id="btn2" onclick="aod('2')">2</button>
+                <button class="btn" id="btn1" onclick="aod('1')">1</button>
+                <button class="btn" id="btn-" onclick="aod('-')"><i class="fa-solid fa-minus"></i></button>
+                <button class="btn" id="btn0" onclick="aod('0')">0</button>
+                <button class="btn" id="btn." onclick="aod('.')">.</button>
+                <button class="btn" id="btnclr" onclick="clr()">Clr</button>
+                <button class="btn" id="btn+" onclick="aod('+')"><i class="fa-solid fa-plus"></i></button>
+                <!-- <button class="btn" id="btnl"><i class="fa-solid fa-arrow-left"></i></button> -->
+                <button class="btn" id="btn=" onclick="calculate()"><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- js file -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a0f95a4c97.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
